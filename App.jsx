@@ -1,18 +1,13 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { View, Text } from 'react-native'
 import React from 'react'
+import Home from './Sreen/Home'
 
 const App = () => {
   return (
-    <View>
-      <Text style={styles.text}>REACT NATIVE</Text>
-    </View>
+    <>
+    <Home/>
+    </>
   )
 }
 
 export default App
-
-const styles = StyleSheet.create({
-  text:{
-    fontSize:50,
-  }
-})
